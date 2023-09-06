@@ -21,7 +21,7 @@ Write-Warning "That didn't work because I haven't coded it yet!"
 
 #Start OSDCloud ZTI the RIGHT way
 Write-Host  -ForegroundColor Cyan "Start OSDCloud with MY Parameters"
-Start-OSDCloud -OSLanguage nl-nl OSBuild 22H2 -OSEdition Education -ZTI
+Start-OSDCloud -OSLanguage nl-nl OSName 'Windows 11 22H2 x64' -OSEdition Education -ZTI
 
 #Anything I want  can go right here and I can change it at any time since it is in the Cloud!!!!!
 Write-Host  -ForegroundColor Cyan "Starting OSDCloud PostAction ..."
