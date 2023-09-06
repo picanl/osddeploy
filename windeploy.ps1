@@ -20,7 +20,7 @@ Write-Host "3. Reboot"
 Write-Host "=============================================="
 
 # Prompt for user input
-$choice = Read-Host "Select an option (1-4)"
+$choice = Read-Host "Select an option (1-3)"
 
 # Use a switch statement to perform actions based on user choice
 switch ($choice) {
