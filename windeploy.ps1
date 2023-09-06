@@ -30,11 +30,13 @@ do {
             # Add code for Option 1 here
             Write-Host "You selected Option 1"
             Start-OSDCloud -OSLanguage nl-nl -OSName 'Windows 10 22H2 x64' -OSEdition Education -ZTI
+            break
         }
         "2" {
             # Add code for Option 2 here
             Write-Host "You selected Option 2"
             Start-OSDCloud -OSLanguage nl-nl -OSName 'Windows 11 22H2 x64' -OSEdition Education -ZTI
+            break
         }
         "3" {
             # Add code for Option 3 here
