@@ -27,7 +27,7 @@ switch ($choice) {
     "1" {
         # Add code for Option 1 here
         Write-Host "You selected Option 1"
-        Start-OSDCloud -OSLanguage nl-nl -OSName 'Windows 10 22H2 x64' -OSEdition Education -ZTI
+        Start-OSDCloud -ImageFileUrl $global:w10url -OSLanguage nl-nl -OSName 'Windows 10 22H2 x64' -OSEdition Education -ZTI
 
         # Exit the script
         #exit
@@ -35,7 +35,7 @@ switch ($choice) {
     "2" {
         # Add code for Option 2 here
         Write-Host "You selected Option 2"
-        Start-OSDCloud -OSLanguage nl-nl -OSName 'Windows 11 22H2 x64' -OSEdition Education -ZTI
+        Start-OSDCloud -ImageFileUrl $global:w11url -OSLanguage nl-nl -OSName 'Windows 11 22H2 x64' -OSEdition Education -ZTI
 
         # Exit the script
         #exit
