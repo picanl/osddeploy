@@ -1,6 +1,8 @@
 Write-Host  -ForegroundColor Cyan "Starting Carmel Intune Deployment ..."
 Start-Sleep -Seconds 5
 iex (irm functions.osdcloud.com)
+## load global variables
+X:\OSDCloud\Config\Scripts\StartNet\isovars.ps1
 #Change Display Resolution for Virtual Machine
 if ((Get-MyComputerModel) -match 'Virtual') {
     Write-Host  -ForegroundColor Cyan "Setting Display Resolution to 1600x"
